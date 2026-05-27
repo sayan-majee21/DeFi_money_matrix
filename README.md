@@ -50,23 +50,6 @@ Credentials are stored in a `mapping(address => Credential[])` with no transfer,
 
 ---
 
-## How to Run
-
-1. Open [remix.ethereum.org](https://remix.ethereum.org)
-2. Create a new file `ChainProof.sol` and paste the contract
-3. Compile with Solidity `^0.8.20`
-4. Deploy on **Remix VM (Cancun)**
-5. Use the deployer account as admin to call `issueCredential()`
-6. Switch to a member account and call `accessGranted()` to test pass and fail cases
-
----
-
-## Screenshots
-
-| File | Description |
-|------|-------------|
-| `success.png` | `accessGranted()` returning `true` after sufficient credentials issued |
-| `revert.png` | `accessGranted()` reverting with reason when trust score is below threshold |
 
 ---
 
@@ -92,4 +75,4 @@ README.md            — this file
 
 ---
 
-*Built for FEC Freshers Recruitment 2026-27 — Money Matrix, Developer Track.*
+Built for FEC Freshers Recruitment 2026-27 — Money Matrix, Developer Track.
