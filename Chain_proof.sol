@@ -27,7 +27,7 @@ contract ChainProof {
         _;
     }
 
-    function issueCredential(address member, string memory title, uint level) public onlyAdmin {
+    function issueCredential(address member, string calldata title, uint level) public onlyAdmin {
         require(level >= 1 && level <= 3, "ChainProof: level must be 1, 2, or 3");
         require(member != address(0), "ChainProof: cannot issue to the zero address");
 
