@@ -58,7 +58,7 @@ Credentials are stored in a `mapping(address => Credential[])` with no transfer,
 ```
 ChainProof.sol       — main contract with inline design comments
 success.png          — successful accessGranted() call
-revert.png           — failed accessGranted() call with revert message
+Screenshot 2026-05-27 093406.png           — failed accessGranted() call with revert message
 README.md            — this file
 ```
 
